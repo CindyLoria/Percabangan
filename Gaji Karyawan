@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	
+	/*Cindy Loria
+	2117051004
+	B*/
+	
+	int Gajikaryawan;
+	int UMRdaerah;
+	
+	//Input
+	cout<<"Gaji Karyawan = ";
+	cin>>Gajikaryawan;
+	cout<<"UMR Daerah    = ";
+	cin>>UMRdaerah;
+	
+	cout<<endl;
+	
+	//Output
+	if (Gajikaryawan < UMRdaerah){
+		cout<<"Gaji Anda dibawah UMR"<<endl;
+	}
+	else if (Gajikaryawan == UMRdaerah){
+		cout<<"Gaji Anda setara dengan UMR"<<endl;
+	}
+	else if (Gajikaryawan > UMRdaerah){
+		cout<<"Gaji Anda diatas UMR"<<endl;
+	}
+	 
+	 return 0;
+}
