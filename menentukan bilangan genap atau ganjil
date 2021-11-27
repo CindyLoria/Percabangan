@@ -1,0 +1,18 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+int main(){
+    int bil; // Deklarasi tipe data dan variabel
+   
+    cout<<"Masukkan Bilangan:";
+    cin>>bil; // Input bilangan yang akan dicari
+   
+    if(bil%2==0 ){
+    // statment bahwa bilangan genap adalah bilangan yang habis dibagi dua
+        cout<<"Bilangan Genap"<<endl;
+    }else{
+    // jika bilangan tidak habis dibagi 2, maka bilangan yang diinputkan adalah bilangan ganjil
+        cout<<"Bilangan Ganjil"<<endl;
+    }
+}
