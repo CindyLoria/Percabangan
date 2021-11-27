@@ -1,0 +1,50 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	// Deklarasi variabel
+	int kamar, harga, lama, bayar;
+	string jeniskamar;
+	
+	// Output Harga
+	cout<<" INFORMASI PENYEWAAN KAMAR HOTEL SINAR "<<endl;
+	cout<<endl;
+	cout<<"No   Jenis Kamar          Harga/Malam "<<endl;
+	cout<<"1.   Zenith               Rp:1.500.000"<<endl;
+	cout<<"2.   Claude               Rp:1.000.000"<<endl;
+	cout<<"3.   Athanasia            Rp:2.500.000"<<endl;
+	cout<<"______________________________________"<<endl;
+	cout<<endl;
+	
+	cout<<"Pilh Jenis kamar : ";
+	cin>>kamar;
+	
+	// Percabangan 
+	if (kamar==1)
+	{
+		harga=1500000;
+		jeniskamar="Zenith";
+	}
+	else if (kamar==2)
+	{
+		harga=1000000;
+		jeniskamar="Claude";
+	}
+	else if (kamar==3)
+	{
+		harga=2500000;
+		jeniskamar="Athanasia";
+	}
+	
+	cout<<"Lama penyewaan kamar: ";
+	cin>>lama;
+	
+	bayar=lama*harga;
+	
+	cout<<endl;
+	cout<<"Jenis kamar pilihan anda : "<<jeniskamar<<endl;
+	cout<<"Lama penyewaan "<<lama<<" Hari"<<endl;
+	cout<<"Total harga penyewaan Kamar yang harus dibayar adalah  Rp "<<bayar<<";"<<endl;
+
+}
