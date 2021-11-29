@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+    //Deklarasi variabel
+    float pendapatan, jasa=0, kom=0, tot=0;
+
+    cout<<"Pendapatan Hari Ini Rp. ";cin>>pendapatan;
+
+    if (pendapatan>=0 && pendapatan<=200000){
+        jasa=10000;
+        kom=0.1*pendapatan;
+    }else if (pendapatan<=500000){
+        jasa=20000;
+        kom=0.15*pendapatan;
+    }else{
+        jasa=30000;
+        kom=0.2*pendapatan;
+    }
+
+    //Menghitung total
+    tot=kom+jasa;
+    cout<<"Uang Jasa   Rp. "<<jasa<<endl;
+    cout<<"Uang Komisi Rp. "<<kom<<endl;
+    cout<<"================================="<<endl;
+    cout<<"Hasil Total Rp. "<<tot<<endl;
+}
