@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int jurusan;
+
+    cout<<"*********DAFTAR JURUSAN***********"<<endl;
+    cout<<"1. Ilmu Komputer"<<endl;
+    cout<<"2. Biologi"<<endl;
+    cout<<"3. Matematika"<<endl;
+    cout<<"---------------------------------------"<<endl;
+
+    cout<<"Masukan Jurusan Pilihan = ";
+    cin>>jurusan;
+
+    switch(jurusan) {
+    case 1 : cout<<"Jurusan yang anda pilih adalah Ilmu Komputer"; break;
+    case 2 : cout<<"Jurusan yang anda pilih adalah Biologi"; break;
+    case 3 : cout<<"Jurusan yang anda pilih adalah Matematika"; break;
+
+    default : cout<<"Jurusan tidak tersedia";
+    }
+}
