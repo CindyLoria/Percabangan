@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int pilihan;
+string text;
+
+int main(){
+ cout << "Daftar Menu Minuman:n";
+ cout << "\n1. Caramel Milk Tea \n2. Matcha Latte  \n3. Oreo Ice Cream \n";
+ 
+ ulangi:
+ 
+ cout << "Masukan pilihan anda (1-3): "; 
+ 
+ cin >> pilihan;
+ 
+ switch(pilihan){
+  case 1:
+   text="Anda memilih Caramel Milk Tea ";
+  break;
+  case 2:
+   text="Anda memilih Matcha Latte";
+  break;
+  case 3:
+   text="Anda memilih Oreo Ice Cream";
+  break;
+  default: 
+   goto ulangi; 
+ }
+ 
+ cout << text;
+}
