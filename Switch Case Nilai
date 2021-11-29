@@ -1,0 +1,29 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+  char nilai;
+ 
+  cout << "Input Nilai Anda (A - D): ";
+  cin >> nilai;
+ 
+  if (nilai == 'A' ) {
+    cout << "Good Job!" << endl;
+  }
+  else if (nilai == 'B' ) {
+    cout << "Baik" << endl;
+  }
+  else if (nilai == 'C' ) {
+    cout << "Lebih Tingkatkan Lagi" << endl;
+  }
+  else if (nilai == 'D' ) {
+    cout << "Perbanyak Usaha " << endl;
+  }
+  else {
+    cout << "Maaf, format nilai tidak sesuai" << endl;
+  }
+ 
+  return 0;
+}
