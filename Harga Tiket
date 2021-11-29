@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int pilih,jum;
+
+    cout<<"*********DAFTAR KELAS TIKET PESAWAT***********"<<endl;
+    cout<<"1. EKONOMI"<<endl;
+    cout<<"2. BISNIS"<<endl;
+    cout<<"3. EKSEKUTIF"<<endl;
+    cout<<"---------------------------------------"<<endl;
+
+    cout<<"Masukan Pilihan = ";
+    cin>>pilih;
+
+    switch(pilih) {
+    case 1 :
+            cout<<"Harga Tiket Rp 250.000/Orang" <<endl;
+            cout<<"Masukan Jumlah: ";
+            cin>>jum;
+            cout<<endl;
+            cout<<"Total Bayar "<<jum*250000<<endl;
+    break;
+    case 2 :
+            cout<<"Harga Tiket Rp 350.000/Orang" <<endl;
+            cout<<"Masukan Jumlah: ";
+            cin>>jum;
+            cout<<endl;
+            cout<<"Total Bayar "<<jum*350000<<endl;
+    break;
+    case 3 :
+            cout<<"Harga Tiket Rp 375.000/Orang" <<endl;
+            cout<<"Masukan Jumlah: ";
+            cin>>jum;
+            cout<<endl;
+            cout<<"Total Bayar "<<jum*375000<<endl;
+    break;
+
+    default : cout<<"Pilihan Anda Salah";
+
+    }
+
+}
