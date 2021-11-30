@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std; 
+int main ()
+ {
+ int umur;
+ cout<<"Masukkan umur:  ";
+ cin>>umur; 
+ if(umur<17){
+ 	cout<<"Anda belum memiliki KTP ";
+ }
+ 
+ return 0;
+ }
