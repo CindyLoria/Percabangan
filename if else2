@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	
+	int tinggi, berat, umur;
+	
+	cin>>tinggi;
+	cin>>berat;
+	cin>>umur;
+	
+	if (tinggi > 170 && berat > 55 && umur >= 15){
+		cout<<"Lolos";
+	
+	}
+	else {
+		cout<<"Tidak Lolos";
+	}
