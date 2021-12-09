@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+ char nama_brg[20];
+ double harga,diskon,total_hrg,uang,kembali;
+ cout<<"input nama barang :";
+ cin>>nama_brg;
+ cout<<"input harga barang :";
+ cin>>harga;
+ if (harga >=100000)
+ {
+  diskon=harga*10/100;
+  cout<<"diskon"<<diskon<<endl;
+ }
+ else if (harga <=100000)
+ {
+  diskon=harga*0/100;
+  cout<<"diskon"<<diskon<<endl;
+ }
+ total_hrg=harga-diskon;
+ cout<<"total harga :"<<total_hrg<<endl;
+ cout<<"input jumlah uang :";
+ cin>>uang;
+ kembali=uang-total_hrg;
+ cout<<"kembali :"<<kembali<<endl;
+ return 0;
+}
