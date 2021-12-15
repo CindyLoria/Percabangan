@@ -17,7 +17,7 @@ int main()
 	cout<<"______________________________________"<<endl;
 	cout<<endl;
 	
-	cout<<"Pilh Jenis kamar : ";
+	cout<<"Pilh Jenis Kamar : ";
 	cin>>kamar;
 	
 	// Percabangan 
@@ -44,7 +44,7 @@ int main()
 	
 	cout<<endl;
 	cout<<"Jenis kamar pilihan anda : "<<jeniskamar<<endl;
-	cout<<"Lama penyewaan "<<lama<<" Hari"<<endl;
+	cout<<"Lama Penyewaan Kamar "<<lama<<" Hari"<<endl;
 	cout<<"Total harga penyewaan Kamar yang harus dibayar adalah  Rp "<<bayar<<";"<<endl;
 
 }
