@@ -22,7 +22,7 @@ int main()
     cout << "Perbanyak Usaha " << endl;
   }
   else {
-    cout << "Maaf, format nilai tidak sesuai" << endl;
+    cout << "Maaf, nilai yang anda input tidak sesuai" << endl;
   }
  
   return 0;
