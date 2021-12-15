@@ -32,5 +32,4 @@ int main() {
 	}
 	cout<<"Anda mendapat Nilai "<<grade<<" dan dinyatakan "<<keterangan<<endl;
 	
-	getch();
 }
