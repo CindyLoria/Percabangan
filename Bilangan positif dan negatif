@@ -1,14 +1,17 @@
 #include <iostream>
 using namespace std;
 int main(){
+    //deklarasi tipe data dan variabel
     int bil, jum, i;
+    
         cout << "Masukkan bilangan: ";
         cin >> bil;
+        
         if (bil > 0){ // jika bilangan lebih besar dari 0, maka bilangan tersebut adalah bilangan bulat positif
             cout <<bil;
             cout << " Bilangan bulat positif \n";
         }
-        else{ // jika keadaan di if adalah false, maka bilangan adalah bilat negatif
+        else{ // jika keadaan di if adalah false, maka bilangan adalah bulat negatif
             cout <<bil;
             cout << " Bilangan bulat negatif \n";
         }
