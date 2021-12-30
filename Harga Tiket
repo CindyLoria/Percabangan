@@ -6,9 +6,9 @@ int main()
 
     cout<<"*********DAFTAR KELAS TIKET PESAWAT***********"<<endl;
     cout<<"1. EKONOMI"<<endl;
-    cout<<"2. BISNIS"<<endl;
+    cout<<"2. BISNIS "<<endl;
     cout<<"3. EKSEKUTIF"<<endl;
-    cout<<"---------------------------------------"<<endl;
+    cout<<"**********************************************"<<endl;
 
     cout<<"Masukan Pilihan = ";
     cin>>pilih;
